@@ -25,16 +25,19 @@ With Es6:
 ```
 
 __ii. reverse() Method for Arrays__
-```function reverse(str){
+
+``` function reverse(str){
   return str.split("").reverse().join("");
 }
 ```
 __iii. Spread Syntax (ES6) + reverse() Method for Arrays__
+
 ```function reverse(str){
   return [...str].reverse().join('');
 }
 ```
 __iv. reduce() Method for Arrays__
+
 ```
 function reverse(str){
   return str.split("").reduce((rev, char)=> char + rev, ''); 
