@@ -34,13 +34,13 @@ __iii. Spread Syntax (ES6) + reverse() Method for Arrays__
   return [...str].reverse().join('');
 }
 ```
-__iv. reduce() Method for Arrays
+__iv. reduce() Method for Arrays__
 ```
 function reverse(str){
   return str.split("").reduce((rev, char)=> char + rev, ''); 
 }
 ```
-v.Recursion
+__v.Recursion__
 ```
 function reverse(str){
  if(str === ""){
