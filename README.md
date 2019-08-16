@@ -32,7 +32,7 @@ __ii. reverse() Method for Arrays__
 ```
 __iii. Spread Syntax (ES6) + reverse() Method for Arrays__
 
-```function reverse(str){
+``` function reverse(str){
   return [...str].reverse().join('');
 }
 ```
