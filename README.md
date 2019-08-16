@@ -16,7 +16,8 @@ __i. For loop__
 ```
 
 With Es6:
-```function reverse(str){
+```
+function reverse(str){
   let reversed = "";
   for(let char of str){
     reversed = char + reversed;
@@ -26,13 +27,15 @@ With Es6:
 
 __ii. reverse() Method for Arrays__
 
-``` function reverse(str){
+``` 
+function reverse(str){
   return str.split("").reverse().join("");
 }
 ```
 __iii. Spread Syntax (ES6) + reverse() Method for Arrays__
 
-``` function reverse(str){
+``` 
+function reverse(str){
   return [...str].reverse().join('');
 }
 ```
